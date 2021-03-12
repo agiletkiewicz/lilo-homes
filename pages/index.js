@@ -10,10 +10,10 @@ const airtableConfig = {
   } 
 };
 
-export default function Home({ records }) {
+export default function Home({ about, hero, home }) {
   return (
     <div>
-      {console.log(records)}
+      {about.heading}: {about.text}
     </div>
   )
 }
@@ -25,7 +25,12 @@ export async function getStaticProps() {
   const { data } = await response;
   const { records } = await data;
 
+  let content = {};
+  records.forEach((record) => {
+    content[record.fields.key] = record.fields
+  })
+
   return {
-    props: { records }
+    props: {...content}
   }
 }
