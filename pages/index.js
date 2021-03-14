@@ -4,6 +4,8 @@ import Airtable from 'airtable';
 import axios from 'axios';
 import Hero from '../components/home/hero'
 import NavBar from '../components/home/navbar'
+import Heading from '../components/home/heading'
+
 
 
 const airtableBaseUrl = `https://api.airtable.com/v0/${process.env.AIRTABLE_BASE}`;
@@ -18,6 +20,7 @@ export default function Home({ about, hero, home }) {
     <div>
       <NavBar />
       <Hero content={hero} />
+      <Heading content={home} />
     </div>
   )
 }
