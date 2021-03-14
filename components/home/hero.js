@@ -5,9 +5,9 @@ export default function Hero({ content }) {
         <header> 
             <figure>
                 <img src={content.image[0].url} className="object-scale-down" />
-                <figcaption className="absolute text-xl -mt-60 text-main-blue pl-4">
-                    <div className="bg-orange w-8/12">
-                        <h1>{content.heading}</h1>
+                <figcaption className="absolute text-2xl -mt-60 text-main-blue pl-4">
+                    <div className="bg-neutral w-8/12 font-heading pl-1">
+                        <h1 className="">{content.heading}</h1>
                     </div>
                 </figcaption>
             </figure>
