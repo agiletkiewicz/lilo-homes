@@ -26,7 +26,8 @@ module.exports = {
       'droplet-light': '#70cde3',
       'green': '#22bcb9',
       'grey': '#9fa1a4',
-      'purple': '#692b6a'
+      'purple': '#692b6a', 
+      'white': '#ffffff'
     }
   },
   variants: {
