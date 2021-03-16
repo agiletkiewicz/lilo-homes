@@ -5,7 +5,9 @@ import axios from 'axios';
 import Hero from '../components/home/hero';
 import NavBar from '../components/home/navbar';
 import Heading from '../components/home/heading';
-import Card from '../components/home/card'
+import Card from '../components/home/card';
+import About from '../components/home/about';
+
 
 
 
@@ -36,6 +38,9 @@ export default function Home({ about, hero, home, house, bungalow }) {
           <Card content={bungalow} />
         </div>
       </div>
+      <div className="flex flex-wrap justify-center lg:justify-around">
+        <About content={about} />
+      </div>    
     </div>
   )
 }
