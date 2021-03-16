@@ -18,7 +18,7 @@ export default function Card({ content }) {
         <div className="relative mt-6 mb-3">
             <img src={content.image[0].url} className=""/>
             <div className="absolute top-0 bottom-0 left-0 right-0 bg-grey opacity-60" onClick={() => setFlip(true) }></div>
-                <div className="absolute top-0 bottom-0 left-0 right-0 bg-main-blue m-auto h-7 w-40 text-center text-lg font-heading text-white">
+                <div className="absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-2/4 bg-main-blue text-center text-lg font-heading text-white p-2">
                      <p className="">{content.heading.toUpperCase()}</p>
                 </div>
         </div>
