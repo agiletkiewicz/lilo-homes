@@ -3,7 +3,7 @@ import React from 'react';
 export default function Hero({ hero, home }) {
     return (
         <header className="relative"> 
-                <img src={hero.image[0].url} className="object-scale-down lg:h-4/5 lg:w-full lg:object-cover" />
+                <img src={hero.image[0].url} className="lg:h-5/6 lg:w-full lg:object-cover" />
                 <div className="absolute text-2xl top-2 text-main-blue pl-4 lg:hidden">
                     <div className="bg-neutral w-8/12 font-heading pl-1">
                         <h1 className="">{hero.heading}</h1>

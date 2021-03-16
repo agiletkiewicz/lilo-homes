@@ -11,7 +11,8 @@ module.exports = {
       'green': '#22bcb9',
       'grey': '#9fa1a4',
       'purple': '#692b6a',
-      'neutral': '#f6e9d2'
+      'neutral': '#f6e9d2',
+      'white': '#ffffff'
     },
     fontFamily: {
       'heading': ['Poppins'],

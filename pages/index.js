@@ -20,11 +20,11 @@ const airtableConfig = {
 
 export default function Home({ about, hero, home, house, bungalow }) {
   return (
-    <div className="grid grid-cols-1">
+      <>
       <NavBar />
       <Hero hero={hero} home={home} />
       <Heading content={home} />
-    <div className="flex flex-wrap justify-center lg:justify-around lg:pb-20">
+    <div className="flex flex-wrap justify-center lg:justify-around lg:pt-20 lg:pb-20">
       <div className="w-3/5 lg:w-1/4">
         <Card content={house} />
       </div>
@@ -33,7 +33,7 @@ export default function Home({ about, hero, home, house, bungalow }) {
       </div>
       </div>
         <About content={about} />
-    </div>
+    </>
   )
 }
 
