@@ -38,9 +38,9 @@ export default function Home({ about, hero, home, house, bungalow }) {
           <Card content={bungalow} />
         </div>
       </div>
-      <div className="flex flex-wrap justify-center lg:justify-around">
+      {/* <div className="flex flex-wrap justify-center lg:justify-around"> */}
         <About content={about} />
-      </div>    
+      {/* </div>     */}
     </div>
   )
 }
