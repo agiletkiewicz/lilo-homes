@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Hero({ content }) {
     return (
-        <header> 
+        <header className=""> 
             <figure>
                 <img src={content.image[0].url} className="object-scale-down" />
                 <figcaption className="absolute text-2xl -mt-60 text-main-blue pl-4">

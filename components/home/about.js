@@ -1,8 +1,8 @@
 import React from 'react';
 
-export default function Hero({ content }) {
+export default function About({ content }) {
     return (
-        <section className="bg-neutral"> 
+        <section className="bg-droplet-light"> 
             <div className="font-heading text-main-blue pl-6 pr-40 pt-3 pb-7 text-3xl lg:text-4xl">
                 <h1>{content.heading}</h1>
             </div>
