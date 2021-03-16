@@ -1,16 +1,27 @@
 import React from 'react';
 
-export default function Hero({ content }) {
+export default function Hero({ hero, home }) {
     return (
         <header className=""> 
             <figure>
-                <img src={content.image[0].url} className="object-scale-down" />
-                <figcaption className="absolute text-2xl -mt-60 text-main-blue pl-4">
+                <img src={hero.image[0].url} className="object-scale-down lg:h-auto lg:w-full lg:object-cover" />
+                <figcaption className="absolute text-2xl -mt-60 text-main-blue pl-4 lg:hidden">
                     <div className="bg-neutral w-8/12 font-heading pl-1">
-                        <h1 className="">{content.heading}</h1>
+                        <h1 className="">{hero.heading}</h1>
                     </div>
                 </figcaption>
             </figure>
+            <section className="bg-neutral lg:absolute lg:-mt-96 lg:w-9/12 lg:ml-20 lg:opacity-90 lg:rounded-lg"> 
+                <div className="font-heading text-main-blue pl-6 pr-40 pt-3 pb-7 text-3xl lg:text-4xl lg:opacity-100">
+                    <h1>{home.heading}</h1>
+                </div>
+                <p className="font-body text-black pl-6 pr-6 text-sm lg:text-xl pb-5 lg:opacity-100">
+                    {home.text}
+                </p>
+                <p className="font-body text-black pl-6 pr-6 text-sm lg:text-xl pb-5 lg:opacity-100">
+                    Learn more.
+                </p>
+            </section>
         </header>
     )
 };
