@@ -2,7 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Airtable from 'airtable';
 import axios from 'axios';
-import Hero from '../components/home/hero';
+import Hero from '../components/property/hero';
 import NavBar from '../components/home/navbar';
 import Heading from '../components/home/heading';
 import Card from '../components/home/card';
