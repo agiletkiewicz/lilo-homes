@@ -22,8 +22,7 @@ export default function Home({ hero }) {
   return (
       <>
       <NavBar />
-
-      {console.log(hero)}
+      <Hero content={hero} />  
     </>
   )
 }

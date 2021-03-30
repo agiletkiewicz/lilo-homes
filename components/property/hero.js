@@ -1,7 +1,7 @@
 import React from 'react';
 
-export default function Hero({ hero }) {
+export default function Hero({ content }) {
     return (
-        <div></div>
+        <div>{console.log(content)}</div>
     )
 };
