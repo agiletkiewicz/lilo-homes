@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css'
 import Airtable from 'airtable';
 import axios from 'axios';
 import Hero from '../components/property/hero';
+import Features from '../components/property/features';
 import NavBar from '../components/home/navbar';
 import Heading from '../components/home/heading';
 import Card from '../components/home/card';
@@ -18,11 +19,12 @@ const airtableConfig = {
   } 
 };
 
-export default function Home({ hero }) {
+export default function Home({ hero, features }) {
   return (
       <>
       <NavBar />
       <Hero content={hero} />  
+      <Features content={features} />
     </>
   )
 }
