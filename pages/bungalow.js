@@ -18,19 +18,19 @@ const airtableConfig = {
   } 
 };
 
-export default function Home({ about, hero, home, house, bungalow }) {
+export default function Home({ hero }) {
   return (
       <>
       <NavBar />
 
-      <About content={about} />
+      {console.log(hero)}
     </>
   )
 }
 
 export async function getStaticProps() {
 
-  const response = await axios.get(`${airtableBaseUrl}/home`, airtableConfig );
+  const response = await axios.get(`${airtableBaseUrl}/bungalow`, airtableConfig );
 
   const { data } = await response;
   const { records } = await data;
