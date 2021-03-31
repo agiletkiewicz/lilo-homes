@@ -16,9 +16,9 @@ export default function Hero({ hero, home }) {
                 <p className="font-body text-black pl-6 pr-6 text-sm lg:text-xl pb-5 lg:opacity-100">
                     {home.text}
                 </p>
-                <p className="font-body text-black pl-6 pr-6 text-sm lg:text-xl pb-5 lg:opacity-100">
+                {/* <p className="font-body text-black pl-6 pr-6 text-sm lg:text-xl pb-5 lg:opacity-100">
                     Learn more
-                </p>
+                </p> */}
             </div>
         </header>
     )

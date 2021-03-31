@@ -20,11 +20,11 @@ const airtableConfig = {
   } 
 };
 
-export default function Home({ hero, features, images }) {
+export default function Home({ hero, features, images, status }) {
   return (
       <>
       <NavBar />
-      <Hero content={hero} />  
+      <Hero content={hero} status={status} />  
       <Carousel images={images.image} />
       <Features content={features} />
       {/* {console.log(images.image)} */}
