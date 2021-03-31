@@ -25,11 +25,12 @@ export default function Carousel({ images }) {
     };
 
     return (
-        <div className="flex flex-wrap justify-between items-center pt-10 pb-10">
-            {console.log()}
+        <div className="">
+        <div className="flex flex-wrap justify-between items-center lg:justify-center pt-10 pb-10 ">
             <Arrow glyph="&#9664;" onClick={goLeft} />
             <Image url={images[idx].url} />
             <Arrow glyph="&#9654;" onClick={goRight} />
+        </div>
         </div>
     )
 };
