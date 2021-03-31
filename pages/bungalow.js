@@ -4,6 +4,7 @@ import Airtable from 'airtable';
 import axios from 'axios';
 import Hero from '../components/property/hero';
 import Features from '../components/property/features';
+import Carousel from '../components/property/carousel';
 import NavBar from '../components/home/navbar';
 import Heading from '../components/home/heading';
 import Card from '../components/home/card';
@@ -19,12 +20,14 @@ const airtableConfig = {
   } 
 };
 
-export default function Home({ hero, features }) {
+export default function Home({ hero, features, images }) {
   return (
       <>
       <NavBar />
       <Hero content={hero} />  
+      <Carousel images={images.image} />
       <Features content={features} />
+      {/* {console.log(images.image)} */}
     </>
   )
 }
