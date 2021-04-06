@@ -1,10 +1,13 @@
 import React from 'react';
 
 
-export default function Arrow({ glyph, onClick }) {
+
+export default function Arrow(props) {
+
+    
     return (
         <div className="" onClick={onClick}>
-            {glyph}
+            {props.children}
         </div>
     )
 };
