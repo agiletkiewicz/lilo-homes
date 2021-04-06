@@ -9,6 +9,7 @@ import NavBar from '../components/home/navbar';
 import Heading from '../components/home/heading';
 import Card from '../components/home/card';
 import About from '../components/home/about';
+import Arrow from '../components/property/arrow';
 
 
 
@@ -20,7 +21,7 @@ const airtableConfig = {
   } 
 };
 
-const icons = ['/living.png', '/washing.png', '/smart.png', '/kitchen.png'];
+const icons = ['/cabinet.png', '/storage.png', '/smart.png', '/kitchen.png'];
 const links = [{content: "Rent", url: "https://rental.turbotenant.com/p/storrs-ave-utica-ny/296455"}]
 
 export default function Home({ hero, features, images, status }) {
@@ -28,7 +29,11 @@ export default function Home({ hero, features, images, status }) {
       <>
       <NavBar />
       <Hero content={hero} status={status} links={links} />  
-      <Carousel images={images.image} />
+      <Carousel lastIdx={images.image.length - 1} >
+          <Carousel.ArrowLeft />
+          <Carousel.Image images={images.image}/>
+          <Carousel.ArrowRight />
+      </Carousel>
       <Features content={features} icons={icons} />
     </>
   )

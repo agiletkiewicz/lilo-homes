@@ -1,14 +1,15 @@
 import { useState } from 'react';
-import Image from './image'
-import Arrow from './arrow'
+import Image from './image';
+import ArrowLeft from './arrowLeft';
+import ArrowRight from './arrowRight';
+import { CarouselContext } from './carouselContext';
 
-
-export default function Carousel({ images }) {
+function Carousel(props) {
 
     const [idx, setIdx] = useState(0);
-    const lastIdx = images.length - 1;
+    const lastIdx = props.lastIdx;
     
-    function goLeft() {
+    const goLeft = () => {
         if (idx === 0) {
             setIdx(lastIdx);
         } else {
@@ -16,7 +17,7 @@ export default function Carousel({ images }) {
         }
     };
 
-    function goRight() {
+    const goRight = () => {
         if (idx === lastIdx) {
             setIdx(0);
         } else {
@@ -25,12 +26,18 @@ export default function Carousel({ images }) {
     };
 
     return (
-        <div className="">
-        <div className="flex flex-wrap justify-between items-center lg:justify-center pt-10 pb-10 ">
-            <Arrow glyph="&#9664;" onClick={goLeft} />
-            <Image url={images[idx].url} />
-            <Arrow glyph="&#9654;" onClick={goRight} />
-        </div>
-        </div>
+        <CarouselContext.Provider value={{idx, goLeft, goRight}}>
+            <div className="">
+                <div className="flex flex-wrap justify-between items-center lg:justify-center pt-10 pb-10 ">
+                    {props.children}
+                </div>
+            </div>
+        </CarouselContext.Provider>
     )
 };
+
+Carousel.ArrowLeft = ArrowLeft;
+Carousel.ArrowRight = ArrowRight;
+Carousel.Image = Image;
+
+export default Carousel;
