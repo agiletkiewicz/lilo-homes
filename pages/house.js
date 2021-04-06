@@ -1,17 +1,8 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import Airtable from 'airtable';
 import axios from 'axios';
 import Hero from '../components/property/hero';
 import Features from '../components/property/features';
 import Carousel from '../components/property/carousel';
 import NavBar from '../components/home/navbar';
-import Heading from '../components/home/heading';
-import Card from '../components/home/card';
-import About from '../components/home/about';
-import Arrow from '../components/property/arrow';
-
-
 
 
 const airtableBaseUrl = `https://api.airtable.com/v0/${process.env.AIRTABLE_BASE}`;

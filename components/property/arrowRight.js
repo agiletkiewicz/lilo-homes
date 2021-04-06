@@ -6,8 +6,8 @@ export default function ArrowRight(props) {
     const {goRight} = useContext(CarouselContext)
     
     return (
-        <div className="" onClick={goRight}>
-            &#9654;
+        <div className="w-1/12 lg:p-5" onClick={goRight}>
+            <img src="/right.png" />
         </div>
     )
 };
