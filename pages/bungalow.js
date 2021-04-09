@@ -3,6 +3,7 @@ import Hero from '../components/property/hero';
 import Features from '../components/property/features';
 import Carousel from '../components/property/carousel';
 import NavBar from '../components/home/navbar';
+import Footer from '../components/home/footer';
 
 
 const airtableBaseUrl = `https://api.airtable.com/v0/${process.env.AIRTABLE_BASE}`;
@@ -25,6 +26,7 @@ export default function Home({ hero, features, images, status }) {
           <Carousel.ArrowRight />
       </Carousel>
       <Features content={features} icons={icons} />
+      <Footer />
     </>
   )
 }
