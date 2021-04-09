@@ -6,8 +6,7 @@ export default function MobileNav() {
             <ul className="font-heading text-lg">
                 <a href="/house"><li className="p-0">Lilo House</li></a>
                 <a href="/bungalow"><li className="p-0">Lilo Bungalow</li></a>
-                <li className="p-0">Location</li>
-                <li className="p-0">About</li>
+                <a href="/location"><li className="p-0">Location</li></a>
             </ul>
         </nav>
     )

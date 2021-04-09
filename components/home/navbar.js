@@ -14,8 +14,7 @@ export default function NavBar({ content }) {
             <ul className="hidden lg:flex lg:justify-right font-heading text-lg">
                 <a href="/house"><li className="p-6">Lilo House</li></a>
                 <a href="/bungalow"><li className="p-6">Lilo Bungalow</li></a>
-                <li className="p-6">Location</li>
-                <li className="p-6">About</li>
+                <a href="/location"><li className="p-6">Location</li></a>
             </ul>
         </nav>
     )
