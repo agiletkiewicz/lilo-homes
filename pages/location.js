@@ -9,7 +9,6 @@ export default function Home({ }) {
       <>
       <NavBar />
       <Heading />
-      {/* <Map />   */}
       <Footer />
     </>
   )
