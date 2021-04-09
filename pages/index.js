@@ -7,6 +7,8 @@ import NavBar from '../components/home/navbar';
 import Heading from '../components/home/heading';
 import Card from '../components/home/card';
 import About from '../components/home/about';
+import Footer from '../components/home/footer';
+
 
 
 
@@ -33,6 +35,7 @@ export default function Home({ about, hero, home, house, bungalow }) {
         </div>
       </div>
       <About content={about} />
+      <Footer />
     </>
   )
 }
