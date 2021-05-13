@@ -6,6 +6,7 @@ import NavBar from '../components/home/navbar';
 import Footer from '../components/home/footer';
 
 
+let test
 const airtableBaseUrl = `https://api.airtable.com/v0/${process.env.AIRTABLE_BASE}`;
 const airtableConfig = {
   headers: {
