@@ -4,7 +4,6 @@ import Airtable from 'airtable';
 import axios from 'axios';
 import Hero from '../components/home/hero';
 import NavBar from '../components/home/navbar';
-import Heading from '../components/home/heading';
 import Card from '../components/home/card';
 import About from '../components/home/about';
 import Footer from '../components/home/footer';
@@ -25,7 +24,6 @@ export default function Home({ about, hero, home, house, bungalow }) {
       <>
       <NavBar />
       <Hero hero={hero} home={home} />
-      <Heading content={home} />
       <div className="flex flex-wrap justify-center lg:justify-around pt-5 pb-5 lg:pt-20 lg:pb-20">
         <div className="w-3/5 lg:w-1/4">
           <Card content={house} />
