@@ -15,7 +15,18 @@ export default function About({ content }) {
                 </div>
                 <p className="font-body text-black pl-6 pr-6 text-sm lg:text-xl pb-5">
                     {content.text}
-                 </p>
+                </p>
+                <div className="flex justify-center">
+                   <a href="https://www.instagram.com/lilohomes/">
+                       <img src="/insta.png" className="h-10 lg:h-14 inline" /> 
+                    </a>
+                    <a href="https://www.facebook.com/lilohomes">
+                        <img src="/fb.png" className="h-10 lg:h-14 inline pl-5 pr-5" /> 
+                    </a>
+                    <a href="https://www.linkedin.com/in/staceymae/">
+                        <img src="/linkedin.png" className="h-10 lg:h-14 inline" />
+                    </a>
+                </div>
             </div>
         </section>
     )
