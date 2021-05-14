@@ -15,8 +15,8 @@ module.exports = {
       'white': '#ffffff'
     },
     fontFamily: {
-      'heading': ['Poppins'],
-      'body': ['Open Sans']
+      heading: ['Poppins'],
+      body: ['Roboto']
      },
     extend: {},
     textColor: {
