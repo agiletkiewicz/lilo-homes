@@ -13,9 +13,9 @@ export default function Contact({ }) {
             <h1 className="font-heading text-white text-4xl flex lg:justify-left justify-center">Contact me!</h1>
           </div>
           <p className="font-body text-black pl-6 pr-6 text-sm lg:text-xl pb-5 flex lg:justify-left justify-center">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe2AV9ReeaHBcaw2tiYY8Qs438ku7fzK3yzUvWPBftc7QC9WA/viewform?embedded=true" width="640" height="500" frameBorder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe2AV9ReeaHBcaw2tiYY8Qs438ku7fzK3yzUvWPBftc7QC9WA/viewform?embedded=true" height="500" width="100%" frameBorder="0" marginheight="0" marginwidth="0">Loading…</iframe>
           </p>
-            <div className="flex lg:justify-left justify-center pl-6">
+            <div className="flex lg:justify-left justify-center pl-0">
               <a href="https://www.instagram.com/lilohomes/">
                 <img src="/insta.png" className="h-10 lg:h-14 inline" /> 
               </a>
@@ -29,8 +29,8 @@ export default function Contact({ }) {
         </div>
       </section>
 
-      <section className="lg:pl-20 lg:pr-20">
-      <h1 className="text-3xl lg:text-5xl text-main-blue p-2 lg:p-6 font-heading lg:block">Testimonials</h1>
+      <section className="lg:pl-20 lg:pr-20 pl-5 pr-5">
+        <h1 className="text-3xl lg:text-5xl text-main-blue p-2 lg:p-6 font-heading lg:block">Testimonials</h1>
         <p className="font-body text-black pl-6 pr-6 text-sm lg:text-l pb-5 italic">
           “We rented the 3/1 Bungalow in 2021. The 1930 house is charming and in overall good condition and worked well for our situation at the time. We only had a couple of minor maintenance requests. Stacey quickly addressed the issues and worked with us to find the best solutions. The neighborhood is a convenient location to nearby shopping, rec center, and major roads. But also is quiet and we felt safe walking around. Stacy was respectful of our privacy and if she needed to come to the house she would notify us first. She was easy to interact with and a pleasant person overall.” - Past Tenant
         </p>
@@ -48,9 +48,9 @@ export default function Contact({ }) {
         </p>
       </section>
 
-      <section className="lg:pl-20 lg:pr-20 pb-20">
-      <h1 className="text-3xl lg:text-5xl text-main-blue p-2 lg:p-6 font-heading lg:block">FAQ</h1>
-        <ul class="list-disc pl-20">
+      <section className="lg:pl-20 lg:pr-20 pb-20 pl-5 pr-5">
+        <h1 className="text-3xl lg:text-5xl text-main-blue p-2 lg:p-6 font-heading lg:block">FAQ</h1>
+        <ul class="list-disc pl-10 lg:pl-20">
           <li class="mb-4">
             <p class="text-lg text-gray-800">
               Interested in renting, but nothing showing as available? There’s no harm in sending me a message as I know some other great folks who may be able to support your search for housing and accommodations.

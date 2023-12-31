@@ -19,10 +19,10 @@ export default function Home() {
         <Card content={home.bungalow} />
       </div>
       <div className="w-3/5 lg:w-1/4">
-        <Card content={home.comingSoon} />
+        <Card content={home.comingSoon1} />
       </div>
       <div className="w-3/5 lg:w-1/4">
-        <Card content={home.comingSoon} />
+        <Card content={home.comingSoon2} />
       </div>
     </div>
     <About content={home.about} />

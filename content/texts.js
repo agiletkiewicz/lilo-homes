@@ -24,11 +24,17 @@ export const home = {
     image: "/home-house.png",
     key: "house"
   },
-  comingSoon: {
+  comingSoon1: {
     heading: "Coming Soon",
     text: "coming soon...",
     image: "/home-placeholder.png",
-    key: "coming-soon"
+    key: "coming-soon-1"
+  },
+  comingSoon2: {
+    heading: "Coming Soon",
+    text: "",
+    image: "/home-placeholder.png",
+    key: "coming-soon-2"
   }
 }
 
@@ -68,14 +74,28 @@ export const house = {
   links: [{content: "Rent", url: "https://rental.turbotenant.com/p/storrs-ave-utica-ny/296455"}]
 }
 
-export const comingSoon = {
+export const comingSoon1 = {
   hero: {
-    heading: "Coming soon...",
-    text: "",
-    image: "/home-placeholder.png"
+    heading: "Coming soon",
+    text: "This single-family home will be restored into a charming and unique floor plan including a vaulted ceiling upon entry, a loft space over the living room, and additional living space on the second floor. It’s in a quiet peaceful neighborhood with low traffic right around the corner from the grocery store and has a sizeable backyard.\n\nAttention Local Organizations: We welcome feedback on the development of this project to accommodate the needs of your organization for housing employees and their families. Get in touch to open a conversation about working together.",
+    image: "/coming-soon-1.png"
   },
   status: {
-    text: "coming soon...",
+    text: "Pending Availability: March 1, 2025",
   },
   links: [],
+}
+
+export const comingSoon2 = {
+  hero: {
+    heading: "Coming soon",
+    text: "This 1920s multi-family home is being rehabilitated into comfy residences in South Utica right next to Cafe Domenico’s, Slice pizzeria, and the Uptown theatre. It will have a mix of long-term, mid-term, and short-term rentals furnished with up-cycled furniture and bold styles.\n\nAttention Local Organizations: We welcome feedback on the development of this project to accommodate the needs of your organization for housing employees and their families. Get in touch to open a conversation about working together.",
+    image: "/coming-soon-2-1.png"
+  },
+  status: {
+    text: "Pending Availability: June 1, 2024",
+  },
+  links: [],
+  images: ["/coming-soon-2-2.png"],
+
 }

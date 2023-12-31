@@ -10,7 +10,7 @@ export default function Hero({ content, status, links }) {
                 <div className="w-full lg:w-2/4">
                     <h1 className="text-3xl lg:text-5xl text-main-blue p-2 lg:p-6 font-heading hidden lg:block">{content.heading}</h1>
                     <h2 className="font-heading text-main-blue text-xl lg:text-xl p-2 lg:p-6">{status.text}</h2>
-                    <p className="p-6 font-body lg:text-xl">{content.text}</p>
+                    <p className="p-6 font-body lg:text-xl whitespace-pre-wrap">{content.text}</p>
                     <div className="flex flex-wrap justify-center lg:justify-around">
                         {links.map(link => (
                             <Button link={link.url} content={link.content} />
