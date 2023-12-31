@@ -11,12 +11,18 @@ export default function Home() {
     <>
     <NavBar />
     <Hero hero={home.hero} home={home.home} />
-    <div className="flex flex-wrap justify-center lg:justify-around pt-5 pb-5 lg:pt-20 lg:pb-20">
+    <div className="flex flex-wrap justify-center lg:justify-around gap-4 pt-5 pb-5 lg:pt-20 lg:pb-20">
       <div className="w-3/5 lg:w-1/4">
         <Card content={home.house} />
       </div>
       <div className="w-3/5 lg:w-1/4">
         <Card content={home.bungalow} />
+      </div>
+      <div className="w-3/5 lg:w-1/4">
+        <Card content={home.comingSoon} />
+      </div>
+      <div className="w-3/5 lg:w-1/4">
+        <Card content={home.comingSoon} />
       </div>
     </div>
     <About content={home.about} />

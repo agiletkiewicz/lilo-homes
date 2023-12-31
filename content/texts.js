@@ -23,6 +23,12 @@ export const home = {
     text: "This beautiful + bright 1930s house transformed into a \"smarter\" home in 2018. This special home was cared for meticulously by its original builders' family (two generations), has been updated with a beautiful kitchen re-designed with great intention, and it is craving tidy humans to occupy it. Have your privacy in a peaceful neighborhood near nature with more space; compared to downtown lofts.",
     image: "/home-house.png",
     key: "house"
+  },
+  comingSoon: {
+    heading: "Coming Soon",
+    text: "coming soon...",
+    image: "/home-placeholder.png",
+    key: "coming-soon"
   }
 }
 
@@ -60,4 +66,16 @@ export const house = {
   images: ["/house1.jpeg", "/house2.jpeg", "/house3.jpeg", "/house4.jpeg", "/house5.jpeg", "/house6.jpeg", "/house7.jpeg", "/house8.jpeg", "/house9.jpeg", "/house10.jpeg", "/house11.jpeg", "/house12.jpeg", "/house13.jpeg"],
   icons: ['/cabinet.png', '/storage.png', '/smart.png', '/kitchen.png'],
   links: [{content: "Rent", url: "https://rental.turbotenant.com/p/storrs-ave-utica-ny/296455"}]
+}
+
+export const comingSoon = {
+  hero: {
+    heading: "Coming soon...",
+    text: "",
+    image: "/home-placeholder.png"
+  },
+  status: {
+    text: "coming soon...",
+  },
+  links: [],
 }
