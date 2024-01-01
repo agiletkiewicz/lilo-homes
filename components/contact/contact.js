@@ -12,7 +12,7 @@ export default function Contact({ }) {
           <h1 className="font-heading text-white text-4xl flex lg:justify-left justify-center">Contact me!</h1>
         </div>
         <p className="font-body text-black pl-6 pr-6 text-sm lg:text-xl pb-5 flex lg:justify-left justify-center">
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe2AV9ReeaHBcaw2tiYY8Qs438ku7fzK3yzUvWPBftc7QC9WA/viewform?embedded=true" height="500" width="100%" frameBorder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe2AV9ReeaHBcaw2tiYY8Qs438ku7fzK3yzUvWPBftc7QC9WA/viewform?embedded=true" height="500" width="100%" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
         </p>
           <div className="flex lg:justify-left justify-center pl-0">
             <a href="https://www.instagram.com/lilohomes/">

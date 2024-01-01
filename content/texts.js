@@ -83,7 +83,8 @@ export const residence = {
   status: {
     text: "Pending Availability: March 1, 2025",
   },
-  links: [],
+  links: [{content: "Join Waitlist", url: "https://docs.google.com/forms/d/e/1FAIpQLSe2AV9ReeaHBcaw2tiYY8Qs438ku7fzK3yzUvWPBftc7QC9WA/viewform?usp=sf_link"}],
+  images: ["/coming-soon-1.png"],
 }
 
 export const flats = {
@@ -95,8 +96,8 @@ export const flats = {
   status: {
     text: "Pending Availability: June 1, 2024",
   },
-  links: [],
-  images: ["/coming-soon-2-2.png"],
+  links: [{content: "Join Waitlist", url: "https://docs.google.com/forms/d/e/1FAIpQLSe2AV9ReeaHBcaw2tiYY8Qs438ku7fzK3yzUvWPBftc7QC9WA/viewform?usp=sf_link"}],
+  images: ["/coming-soon-2-1.png", "/coming-soon-2-2.png"],
 };
 
 export const testimonials = [

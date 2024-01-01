@@ -10,7 +10,9 @@ export default function ComingSoon() {
       <NavBar />
       <Hero content={flats.hero} status={flats.status} links={flats.links} />  
       <Carousel lastIdx={flats.images.length - 1} >
+        <Carousel.ArrowLeft />
         <Carousel.Image images={flats.images}/>
+        <Carousel.ArrowRight />
       </Carousel>
       <Footer />
     </>
