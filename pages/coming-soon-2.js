@@ -1,5 +1,5 @@
 import Hero from '../components/property/hero';
-import Carousel from '../components/property/carousel';
+import Carousel from '../components/shared/carousel';
 import NavBar from '../components/home/navbar';
 import Footer from '../components/home/footer';
 import { comingSoon2 } from '../content/texts.js'

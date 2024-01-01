@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Image from './image';
+import Text from './carouselText.js'
 import ArrowLeft from './arrowLeft';
 import ArrowRight from './arrowRight';
 import { CarouselContext } from './carouselContext';
@@ -39,5 +40,6 @@ function Carousel(props) {
 Carousel.ArrowLeft = ArrowLeft;
 Carousel.ArrowRight = ArrowRight;
 Carousel.Image = Image;
+Carousel.Text = Text;
 
 export default Carousel;

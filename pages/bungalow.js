@@ -1,7 +1,7 @@
 import axios from 'axios';
 import Hero from '../components/property/hero';
 import Features from '../components/property/features';
-import Carousel from '../components/property/carousel';
+import Carousel from '../components/shared/carousel';
 import NavBar from '../components/home/navbar';
 import Footer from '../components/home/footer';
 import { bungalow } from 'content/texts';
