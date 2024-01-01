@@ -9,7 +9,7 @@ export default function Card({ content }) {
         <div className="relative mt-6 mb-3 cursor-default">
             <img src={content.image} className="rounded-md" />
             <div className="absolute top-0 bottom-0 left-0 right-0 bg-grey opacity-60 rounded-md"></div>
-            <div className="p-2 lg:p-5 absolute top-0 bottom-0 left-0 right-0 bg-main-blue m-auto text-left text-xs lg:text-base font-heading text-white rounded-md">
+            <div className="p-2 lg:p-5 absolute top-0 bottom-0 left-0 right-0 bg-main-blue m-auto text-left text-base font-heading text-white rounded-md">
               <p className="font-body">{content.text}</p>
               <p className="absolute bottom-2 right-2">Learn more</p>
             </div>

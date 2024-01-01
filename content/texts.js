@@ -14,27 +14,27 @@ export const home = {
   },
   bungalow: {
     heading: "Lilo Bungalow",
-    text: "This South Utica bungalow has 3 bedrooms and 1 bathroom with beautiful original hardwoods, a private fenced-in yard, an updated bathroom, and a modern aesthetic combined with 1930's architectural features. This home has a history of being a safe haven and healing space for its humans that have homed it prior to our acquisition. Let's continue its tradition.",
+    text: "This South Utica bungalow has 3 bedrooms and 1 bathroom with beautiful original hardwoods, a private fenced-in yard, an updated bathroom, and a modern aesthetic combined with 1930's architectural features.",
     image: "/home-bungalow.jpeg",
     key: "bungalow"
   },
   house: {
     heading: "Lilo House",
-    text: "This beautiful + bright 1930s house transformed into a \"smarter\" home in 2018. This special home was cared for meticulously by its original builders' family (two generations), has been updated with a beautiful kitchen re-designed with great intention, and it is craving tidy humans to occupy it. Have your privacy in a peaceful neighborhood near nature with more space; compared to downtown lofts.",
+    text: "This beautiful + bright 1930s house transformed into a \"smarter\" home in 2018. This special home was cared for meticulously by its original builders' family (two generations), has been updated with a beautiful kitchen re-designed with great intention.",
     image: "/home-house.png",
     key: "house"
   },
-  comingSoon1: {
-    heading: "Coming Soon",
+  residence: {
+    heading: "Briar Residence",
     text: "Coming soon, continue to detail page to learn more.",
     image: "/home-placeholder.png",
-    key: "coming-soon-1"
+    key: "residence"
   },
-  comingSoon2: {
-    heading: "Coming Soon",
+  flats: {
+    heading: "Emerson Flats",
     text: "Coming soon, continue to detail page to learn more.",
     image: "/home-placeholder.png",
-    key: "coming-soon-2"
+    key: "flats"
   }
 }
 
@@ -74,10 +74,10 @@ export const house = {
   links: [{content: "Rent", url: "https://rental.turbotenant.com/p/storrs-ave-utica-ny/296455"}]
 }
 
-export const comingSoon1 = {
+export const residence = {
   hero: {
-    heading: "Coming soon",
-    text: "This single-family home will be restored into a charming and unique floor plan including a vaulted ceiling upon entry, a loft space over the living room, and additional living space on the second floor. It’s in a quiet peaceful neighborhood with low traffic right around the corner from the grocery store and has a sizeable backyard.\n\nAttention Local Organizations: We welcome feedback on the development of this project to accommodate the needs of your organization for housing employees and their families. Get in touch to open a conversation about working together.",
+    heading: "Briar Residence",
+    text: "Coming soon.\n\nThis single-family home will be restored into a charming and unique floor plan including a vaulted ceiling upon entry, a loft space over the living room, and additional living space on the second floor. It’s in a quiet peaceful neighborhood with low traffic right around the corner from the grocery store and has a sizeable backyard.\n\nAttention Local Organizations: We welcome feedback on the development of this project to accommodate the needs of your organization for housing employees and their families. Get in touch to open a conversation about working together.",
     image: "/coming-soon-1.png"
   },
   status: {
@@ -86,10 +86,10 @@ export const comingSoon1 = {
   links: [],
 }
 
-export const comingSoon2 = {
+export const flats = {
   hero: {
-    heading: "Coming soon",
-    text: "This 1920s multi-family home is being rehabilitated into comfy residences in South Utica right next to Cafe Domenico’s, Slice pizzeria, and the Uptown theatre. It will have a mix of long-term, mid-term, and short-term rentals furnished with up-cycled furniture and bold styles.\n\nAttention Local Organizations: We welcome feedback on the development of this project to accommodate the needs of your organization for housing employees and their families. Get in touch to open a conversation about working together.",
+    heading: "Emerson Flats",
+    text: "Coming soon.\n\nThis 1920s multi-family home is being rehabilitated into comfy residences in South Utica right next to Cafe Domenico’s, Slice pizzeria, and the Uptown theatre. It will have a mix of long-term, mid-term, and short-term rentals furnished with up-cycled furniture and bold styles.\n\nAttention Local Organizations: We welcome feedback on the development of this project to accommodate the needs of your organization for housing employees and their families. Get in touch to open a conversation about working together.",
     image: "/coming-soon-2-1.png"
   },
   status: {

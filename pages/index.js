@@ -11,7 +11,7 @@ export default function Home() {
     <>
     <NavBar />
     <Hero hero={home.hero} home={home.home} />
-    <div className="flex flex-wrap justify-center lg:justify-around gap-4 pt-5 pb-5 lg:pt-20 lg:pb-20">
+    <div className="flex flex-wrap justify-center lg:justify-around gap-2 pt-5 pb-5 lg:pt-20 lg:pb-20">
       <div className="w-3/5 lg:w-1/4">
         <Card content={home.house} />
       </div>
@@ -19,10 +19,10 @@ export default function Home() {
         <Card content={home.bungalow} />
       </div>
       <div className="w-3/5 lg:w-1/4">
-        <Card content={home.comingSoon1} />
+        <Card content={home.residence} />
       </div>
       <div className="w-3/5 lg:w-1/4">
-        <Card content={home.comingSoon2} />
+        <Card content={home.flats} />
       </div>
     </div>
     <About content={home.about} />
