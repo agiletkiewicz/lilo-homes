@@ -5,7 +5,7 @@ export default function Hero({ hero, home }) {
         <header className="relative"> 
                 <img src={hero.image} className="lg:h-5/6 lg:w-full lg:object-cover" />
                 <div className="absolute text-2xl top-2 text-main-blue pl-4 lg:hidden">
-                    <div className="bg-neutral w-8/12 font-heading pl-1">
+                    <div className="bg-neutral w-8/12 font-heading pl-1 rounded-md">
                         <h1 className="">{hero.heading}</h1>
                     </div>
                 </div>
@@ -16,9 +16,6 @@ export default function Hero({ hero, home }) {
                 <p className="font-body text-black pl-6 pr-6 text-sm lg:text-xl pb-5 lg:opacity-100">
                     {home.text}
                 </p>
-                {/* <p className="font-body text-black pl-6 pr-6 text-sm lg:text-xl pb-5 lg:opacity-100">
-                    Learn more
-                </p> */}
             </div>
         </header>
     )
