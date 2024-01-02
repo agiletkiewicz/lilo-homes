@@ -10,8 +10,8 @@ export default function Card({ content }) {
             <img src={content.image} className="rounded-md" />
             <div className="absolute top-0 bottom-0 left-0 right-0 bg-grey opacity-60 rounded-md"></div>
             <div className="p-2 lg:p-5 absolute top-0 bottom-0 left-0 right-0 bg-main-blue m-auto text-left font-heading text-white rounded-md">
-              <p className="font-body">{content.text}</p>
-              <p className="absolute bottom-2 right-2">Learn more</p>
+              <p className="font-body overflow-hidden">{content.text}</p>
+              <p className="absolute bottom-2 right-2 bg-main-blue">Learn more</p>
             </div>
         </div>
       </a>
