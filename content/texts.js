@@ -27,13 +27,13 @@ export const home = {
   residence: {
     heading: "Briar Residence",
     text: "Coming soon, continue to detail page to learn more.",
-    image: "/home-placeholder.png",
+    image: "/residence.png",
     key: "residence"
   },
   flats: {
     heading: "Emerson Flats",
     text: "Coming soon, continue to detail page to learn more.",
-    image: "/home-placeholder.png",
+    image: "/flats.png",
     key: "flats"
   }
 };

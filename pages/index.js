@@ -11,7 +11,7 @@ export default function Home() {
     <>
     <NavBar />
     <Hero hero={home.hero} home={home.home} />
-    <div className="flex flex-wrap justify-center lg:justify-around gap-2 pt-5 pb-5 lg:pt-20 lg:pb-20">
+    <div className="flex flex-wrap md:flex-nowrap text-md md:text-sm lg:text-md justify-center lg:justify-around gap-2 pt-5 pb-5 lg:pt-20 lg:pb-20 pl-2 pr-2">
       <div className="w-3/5 lg:w-1/4">
         <Card content={home.house} />
       </div>

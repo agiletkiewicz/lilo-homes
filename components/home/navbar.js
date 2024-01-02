@@ -15,8 +15,8 @@ export default function NavBar({ }) {
         <ul className="hidden lg:flex lg:justify-right font-heading text-lg">
           <div className="p-6 hidden lg:block cursor-pointer" onClick={() => setHomesOpen(!openHomes)}>Homes</div>
           {openHomes ? <HomesNav /> : null}
-          <a href="/contact"><li className="p-6">Contact</li></a>
           <a href="/location"><li className="p-6">Location</li></a>
+          <a href="/contact"><li className="p-6">Contact</li></a>
         </ul>
       </nav>
     )
