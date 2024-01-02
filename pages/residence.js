@@ -9,6 +9,7 @@ export default function ComingSoon() {
       <>
       <NavBar />
       <Hero content={residence.hero} status={residence.status} links={residence.links} />
+      <h1 className="text-3xl lg:text-5xl text-main-blue p-2 lg:p-6 font-heading text-center p-5">Concept Floor Plans</h1>
       <Carousel lastIdx={residence.images.length - 1} >
         <Carousel.Image images={residence.images}/>
       </Carousel>

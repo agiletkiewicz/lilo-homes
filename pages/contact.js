@@ -3,6 +3,7 @@ import Footer from '../components/home/footer';
 import Contact from '../components/contact/contact.js';
 import Testimonials from '../components/contact/testimonials.js';
 import FAQs from '../components/contact/faqs.js';
+import Offers from '../components/contact/offers.js'
 
 export default function Home({ }) {
   return (
@@ -11,6 +12,7 @@ export default function Home({ }) {
       <Contact />
       <Testimonials />
       <FAQs />
+      <Offers />
       <Footer />
     </>
   )

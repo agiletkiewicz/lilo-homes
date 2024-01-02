@@ -36,7 +36,7 @@ export const home = {
     image: "/home-placeholder.png",
     key: "flats"
   }
-}
+};
 
 export const bungalow = {
   hero: {
@@ -54,7 +54,7 @@ export const bungalow = {
   },
   icons: ['/living.png', '/washing.png', '/smart.png', '/kitchen.png'],
   links: [{url: "https://rental.turbotenant.com/p/storrs-ave-utica-ny/296545", content: "Rent"}, {url: "https://www.airbnb.com/rooms/46414569?s=67&unique_share_id=373fdc1f-4d39-4215-a425-1fc7b1220946&source_impression_id=p3_1613800287_TYMeMLTQ2RafXIxU", content: "Airbnb"}]
-}
+};
 
 export const house = {
   hero: {
@@ -72,26 +72,26 @@ export const house = {
   images: ["/house1.jpeg", "/house2.jpeg", "/house3.jpeg", "/house4.jpeg", "/house5.jpeg", "/house6.jpeg", "/house7.jpeg", "/house8.jpeg", "/house9.jpeg", "/house10.jpeg", "/house11.jpeg", "/house12.jpeg", "/house13.jpeg"],
   icons: ['/cabinet.png', '/storage.png', '/smart.png', '/kitchen.png'],
   links: [{content: "Rent", url: "https://rental.turbotenant.com/p/storrs-ave-utica-ny/296455"}]
-}
+};
 
 export const residence = {
   hero: {
     heading: "Briar Residence",
     text: "Coming soon.\n\nThis single-family home will be restored into a charming and unique floor plan including a vaulted ceiling upon entry, a loft space over the living room, and additional living space on the second floor. It’s in a quiet peaceful neighborhood with low traffic right around the corner from the grocery store and has a sizeable backyard.\n\nAttention Local Organizations: We welcome feedback on the development of this project to accommodate the needs of your organization for housing employees and their families. Get in touch to open a conversation about working together.",
-    image: "/coming-soon-1.png"
+    image: "/residence.png"
   },
   status: {
     text: "Pending Availability: March 1, 2025",
   },
   links: [{content: "Join Waitlist", url: "https://docs.google.com/forms/d/e/1FAIpQLSe2AV9ReeaHBcaw2tiYY8Qs438ku7fzK3yzUvWPBftc7QC9WA/viewform?usp=sf_link"}],
   images: ["/coming-soon-1.png"],
-}
+};
 
 export const flats = {
   hero: {
     heading: "Emerson Flats",
     text: "Coming soon.\n\nThis 1920s multi-family home is being rehabilitated into comfy residences in South Utica right next to Cafe Domenico’s, Slice pizzeria, and the Uptown theatre. It will have a mix of long-term, mid-term, and short-term rentals furnished with up-cycled furniture and bold styles.\n\nAttention Local Organizations: We welcome feedback on the development of this project to accommodate the needs of your organization for housing employees and their families. Get in touch to open a conversation about working together.",
-    image: "/coming-soon-2-1.png"
+    image: "/flats.png"
   },
   status: {
     text: "Pending Availability: June 1, 2024",
@@ -110,6 +110,13 @@ export const testimonials = [
 
 export const faqs = [
   "Interested in renting, but nothing showing as available? There’s no harm in sending me a message as I know some other great folks who may be able to support your search for housing and accommodations.",
-  "Interested in mobilizing more Lilo Homes as a private investor? I am receptive.",
-  "Interested in learning the ropes or trading skills? I am an advocate for the trade economy."
+  "Interested in mobilizing more Lilo Homes as a private investor? If you see the vision, I am receptive. While profit is important for sustaining high-quality offerings and quality of life, the care of the homes and our guests are just as important to me. Let’s have a conversation if this aligns.",
+  "Interested in real estate, property management, renovating properties, etc.? I am an advocate for the trade economy. I love idea-sharing and I love continued learning. Pitch an idea to trade skills or contribute to learning the ropes with me!",
 ];
+
+export const location = "All of the Lilo Homes are located in the South Utica neighborhood. The Storrs Ave Homes are 500ft from the Parkway Center, which is equipped with a playground, tennis courts, basketball courts, and a ski chalet. All of the homes are also within 800 meters of grocery stores, gas stations, restaurants, and cafes including Cafe Domenico’s, Slice Pizzeria, The Green Onion Pub, and Bagel Grove. The Homes are within 3 miles of Utica College, Mohawk Valley Community College, 2 co-working spaces, and St Elizabeth’s College of Nursing. A few exciting locations in the neighborhood also include the brand-new Utica Children’s Museum on the Memorial Parkway, The Uptown Theatre for Creative Arts, and the Midtown Utica Community Center.";
+
+export const offers = [
+  { content: "For Landlords: Accounting with REI Hub - Use my name to Claim $50\n(click to continue)", url: "https://www.reihub.net/", image: "/REIHub.png" },
+  { content: "For Landlords: Manage with TurboTenant - Give $25. Get $25\n(click to continue)", url: "https://turbotenant.com/r/T3duZXI6MjgzNDAz", image: "/TurboTenant.png" },
+]
