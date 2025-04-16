@@ -8,7 +8,7 @@ export const home = {
     text: "Beautiful eclectic 1930's homes for rent. Think: history meets tech meets cozy vibes. Lilo homes are meticulously cared for with attention to detail of utmost importance for embracing originality."
   },
   about: {
-    heading: "The creative behind the mission",
+    heading: "The creative behind the company",
     text: "Meet Stacey Smith, the heart and visionary behind Lilo Homes. With a passion for preserving history and creating inviting communities, Stacey is on a mission to turn houses into loving homes. Her caring nature and commitment shine through in every Lilo Home, inviting you to be a part of their timeless stories. \"Exploring and immersing myself in new experiences, different cultures, and witnessing the [hi]stories of places that stand the test of time is soul-filling for me. While travel is an integral part of my life, a stable home and community is also of high value to me.\"",
     image: "/home-about.png"
   },
